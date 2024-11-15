@@ -1,0 +1,12 @@
+﻿<Window x:Class="WpfMultiForm.MainWindow"
+ xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Main Window" Height="200" Width="300">
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Button Name="OpenWindow1Button" Content="Open Window 1" Width="150" Margin="5" Click="OpenWindow1Button_Click"/>
+            <Button Name="OpenWindow2Button" Content="Open Window 2" Width="150" Margin="5" Click="OpenWindow2Button_Click"/>
+        </StackPanel>
+    </Grid>        
+
+</Window>
